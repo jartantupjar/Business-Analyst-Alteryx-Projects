@@ -1,0 +1,24 @@
+1.
+select s.country,count(p.productid) as 'Number of Products' from products p 
+join suppliers s on p.supplierid=s.supplierid group by s.country order by count(p.productid) desc;
+2.
+select strftime('%Y-%m',o.orderdate) as month,sum((od.quantity*od.unitprice*(1-od.discount)))as 'total sales' from 
+orders o join orderdetails od on o.orderid=od.orderid
+ group by  strftime('%Y-%m',o.orderdate) order by month asc;
+3.
+select categ as category,categsales as 'total sales',round((categsales/totalsales)*100,0) as percentage from 
+(select c.categoryname as categ,sum((o.quantity*o.unitprice*(1-o.discount)))as categsales from categories c 
+join products p on c.categoryid=p.categoryid 
+join orderdetails o on p.productid=o.productid
+group by categ) as subq 
+join (select sum((o.quantity*o.unitprice*(1-o.discount)))as totalsales from categories c
+ join products p on c.categoryid=p.categoryid 
+join orderdetails o on p.productid=o.productid) as subq2
+group by categ order by categsales desc;
+4.
+select categ as category,productname as 'product name', max(tsales) as 'total sales' from
+(select p.productname as productname,c.categoryname as categ,sum((o.quantity*o.unitprice*(1-o.discount)))as tsales from categories c join products p on c.categoryid=p.categoryid 
+join orderdetails o on p.productid=o.productid
+group by o.productid order by categ,tsales desc) as subq
+group by category
+order by max(tsales) desc;

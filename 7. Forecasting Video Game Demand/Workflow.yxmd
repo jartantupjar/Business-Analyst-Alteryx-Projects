@@ -8,7 +8,7 @@
       <Properties>
         <Configuration>
           <Passwords />
-          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ndrs\Desktop\My Projects\7. Forecasting Video Game Demand\monthly-sales.xlsx</File>
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="25">C:\Users\ndrs\Desktop\My Projects\Business Analyst Alteryx Projects\7. Forecasting Video Game Demand\monthly-sales.xlsx</File>
           <FormatSpecificOptions>
             <FirstRowData>False</FirstRowData>
             <ImportLine>1</ImportLine>
@@ -19,10 +19,13 @@
           <DefaultAnnotationText>monthly-sales.xlsx</DefaultAnnotationText>
           <Left value="False" />
         </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
         <MetaInfo connection="Output">
           <RecordInfo>
-            <Field name="Month" size="255" source="File: C:\Users\ndrs\Desktop\My Projects\7. Forecasting Video Game Demand\monthly-sales.xlsx" type="V_String" />
-            <Field name="Monthly Sales" source="File: C:\Users\ndrs\Desktop\My Projects\7. Forecasting Video Game Demand\monthly-sales.xlsx" type="Double" />
+            <Field name="Month" size="255" source="File: C:\Users\ndrs\Desktop\My Projects\Business Analyst Alteryx Projects\7. Forecasting Video Game Demand\monthly-sales.xlsx" type="V_String" />
+            <Field name="Monthly Sales" source="File: C:\Users\ndrs\Desktop\My Projects\Business Analyst Alteryx Projects\7. Forecasting Video Game Demand\monthly-sales.xlsx" type="Double" />
           </RecordInfo>
         </MetaInfo>
       </Properties>
@@ -142,7 +145,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_5349d460b26e4c0a90356f83baffea09_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_585388117dd741639bd1b7936966ace5_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -170,7 +173,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_c7dbfb583a8f4fbd96e05721df8b62f9_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_162e7884c9b242d1aaa0828494effa51_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -239,7 +242,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_43a690dc59534920bec5c9dd5dd6f4e7_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_69e7e838aa094f829cfdebc9a7d5ee67_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -266,7 +269,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_813a4074a95044aebc64fcb213c1cff2_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_2ef942f69f89425a94a23114e3dc97e5_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -344,9 +347,6 @@
           <DefaultAnnotationText />
           <Left value="False" />
         </Annotation>
-        <Dependencies>
-          <Implicit />
-        </Dependencies>
       </Properties>
       <EngineSettings Macro="Predictive Tools\ETS.yxmc" />
     </Node>
@@ -356,7 +356,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_d7837e6d968d4fa3bf081b30324ee670_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_9e1a00de3be64fcc8d15854d32dd418d_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -444,7 +444,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_f4e4721edb8c4e5c91a73e17f12711dd_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_36abba143bbd428cb3ac6faae8782183_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -543,7 +543,8 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_c9c0e86508e042df83167e694381dbee_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_0b620718db9840baa8bd6a505509310d_.yxdb</TempFile>
+          <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -570,7 +571,8 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_8efc41767e6d4675bdce93088f017044_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_ea0ea097540e4b6cbc671bb5fa7c16b7_.yxdb</TempFile>
+          <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -662,7 +664,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_a9bbb2c6e4ff4894908c5e14a86be5dd_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_cbf279897c384f33a28267c952abea20_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -690,7 +692,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_4fc989f30b804695a1c3026cf4d86340_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_5324eefa8a8f407caf0852334f4dd934_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -739,7 +741,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_8ef60bd8e8ef4cc5a6c23f1a448bb52a_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_0843d938fbc749769d06346d12892194_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -838,7 +840,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_1391607aa11140dca83015cf977de1a7_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_1ae311e75adf4bec9520c1e6d4402a5d_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -866,7 +868,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_dc63734043404e51aa2b2bf3878739e1_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_dd69c5f120f94dee8333b01db935eb58_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -894,7 +896,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_7a292e3fb42c47909fab225b8a367bb8_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_c1f76d0c068947bca24cfc89c6d5b63c_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -921,7 +923,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_d8146c61638b4da9a99123ef739d2422_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_c77c55ba4b2c45c6817a6be5ab1ee20b_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -948,7 +950,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_88dc36146c0f4c0fbaa8714bb507730a_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_fadb0311d6214a20b63ffd75534cb236_.yxdb</TempFile>
           <Layout>
             <View1>
               <Hints>
@@ -994,7 +996,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_414f886e7d604089854b51e4f477d900_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_6e42186501264ab7a990f2fa9021c28d_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -1022,7 +1024,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_d2c1e14b6a2a4c1dbe4f4821e7f7a44f_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_fd2ddf69d5fe4f76a8f126aa7f1828cf_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -1118,7 +1120,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_c09d7bdae2e2408bb2f935beefdf79c7_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_af20f35cc1e24e7fb66104e2db716565_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -1146,7 +1148,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_ee5034508bc64375b309c192b47877b9_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_30ed670e34f5452587b34c1cf0a3dc5a_.yxdb</TempFile>
           <Layout>
             <ViewMode>Single</ViewMode>
             <ViewSize value="100" />
@@ -1245,7 +1247,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_542a07f3d41a43cd82b406e538845867_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_c192df099ea447e79916a94b00612e0f_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -1273,7 +1275,7 @@
       </GuiSettings>
       <Properties>
         <Configuration>
-          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_12956_9fccb1febff94aa0bf02335d797a732c_\Engine_10720_dc125790b57b4a1d91dc1d6f7abd6a90_.yxdb</TempFile>
+          <TempFile>C:\Users\ndrs\AppData\Local\Temp\Engine_3936_96d498bfa61344078d9741ab47c3ceb5_\Engine_14940_910e589541d34cd0b522b293b3da846f_.yxdb</TempFile>
           <TempFileDataProfiling />
           <Layout>
             <ViewMode>Single</ViewMode>
@@ -1383,6 +1385,10 @@
     </Connection>
     <Connection name="#1">
       <Origin ToolID="23" Connection="Output" />
+      <Destination ToolID="55" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="28" Connection="Output" />
       <Destination ToolID="55" Connection="Input" />
     </Connection>
     <Connection name="#2">
